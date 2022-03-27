@@ -17,9 +17,9 @@
     --cor2: #9FC131;
     --cor3: #DBF227;
     --cor4: #ffffff9f;
-    --font-principal: 'Rubik', cursive;
-    --font-titulo: 'Oswald', cursive;
-    --font-destaque: 'Roboto', cursive
+    --font-principal: 'Rubik',verdana, sans-serif;
+    --font-titulo: 'Oswald', verdana, sans-serif;
+    --font-destaque: 'Roboto', verdana, sans-serif;
 }
 *{
     margin: 0%;
