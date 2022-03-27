@@ -4,5 +4,3 @@
 Primeira atualização do projeto.
 
 <a href = 'https://lucasandradese.github.io/projeto/01-site/'>Primeiro site</a>
-
-atualização da fonte.
