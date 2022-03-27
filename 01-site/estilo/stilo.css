@@ -1,16 +1,4 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'Rubik';
-    src: url('../fonte/Rubik-Bold.ttf');
-    src: url('../fonte/Rubik-Regular.ttf');
-    font-family: 'Oswald';
-    src: url('../fonte/Oswald-Bold.ttf');
-    src: url('../fonte/Oswald-Regular.ttf');
-    font-family: 'Roboto';
-    src: url('../fonte/Roboto-Bold.ttf');
-    src: url('../fonte/Roboto-Regular.ttf');
-}
-
 :root{
     --cor0: #042940;
     --cor1: #005C53;
