@@ -85,9 +85,9 @@ aside{
     display: inline-block;
     background-color: var(--cor4);
     height: 300px;
-    width: 270px;
+    width: 300px;
     padding: 10px;
-    margin-left: 40px;
+    margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     text-align: center;
