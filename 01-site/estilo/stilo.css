@@ -73,14 +73,28 @@ main article{
     margin-top: 50px;
 }
 aside{
-    background-color: #141414;
-    color: white;
+    background-color: #1f1e1efa;
     padding: 15px;
+}
+#contenier{
+    margin-left: 50px;
+}
+.contenier-01{
+    display: inline-block;
+    background-color: var(--cor4);
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px #00000062;
 }
 footer{
     background-color: black;
     color: white;
-    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding: 10px;
 }
