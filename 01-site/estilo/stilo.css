@@ -13,6 +13,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.img-brackgroud{
+    width: 100%;
+}
 header{
     background-color: var(--cor4);
     padding: 5px 0px 40px 25px;
