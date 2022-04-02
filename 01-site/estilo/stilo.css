@@ -80,13 +80,13 @@ main article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #1f1e1eab;
-    padding: 15px;
+    background-color: #2e2e2e;
+    padding: 20px 0px 10px 0px;
 }
 #flex > div{
     background-color: white;
     height: 300px;
-    width: 300px;
+    width: 420px;
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
