@@ -63,24 +63,24 @@ main{
 }
 main > section {
     background-color: var(--cor4);
-    min-width: 320px;
-    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
     text-align: justify;
-    padding: 15px;
+    padding: 20px;
     margin: auto;
 }
+
 main article{
-    margin-top: 50px;
-}
-aside{
-    background-color: #1f1e1efa;
-    padding: 15px;
+    margin-top: 10px;
 }
 #flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--cor0);
+    background-color: #1f1e1efa;
+    padding: 15px;
 }
 #flex > div{
     display: inline-block;
