@@ -127,6 +127,15 @@ main article{
     margin-left: 100px;
     padding: 5px;
 }
+.contenier-02{
+    display: flex;
+    justify-content: center; 
+}
+.icone{
+    margin: 20px 20px 10px 20px;
+    height: 35px;
+    width: 35px;
+}
 footer{
     background-color: black;
     color: white;
