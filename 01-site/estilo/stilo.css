@@ -87,6 +87,8 @@ main article{
     width: 320px;
     padding: 10px;
     margin: 5px;
+    background-color: #ffffff23;
+    border-radius: 3px;
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
