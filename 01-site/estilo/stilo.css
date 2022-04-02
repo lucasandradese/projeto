@@ -83,14 +83,13 @@ main article{
     padding: 20px 0px 10px 0px;
 }
 #flex > div{
-    background-color: white;
-    height: 300px;
+    height: 150px;
     width: 320px;
     padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 5px;
     text-align: center;
-    box-shadow: 1px 1px 10px #00000062;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer{
     background-color: black;
