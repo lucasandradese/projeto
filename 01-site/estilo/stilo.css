@@ -80,12 +80,11 @@ main article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #1f1e1efa;
+    background-color: #1f1e1eab;
     padding: 15px;
 }
 #flex > div{
-    display: inline-block;
-    background-color: var(--cor4);
+    background-color: white;
     height: 300px;
     width: 300px;
     padding: 10px;
