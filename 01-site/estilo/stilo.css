@@ -76,12 +76,13 @@ aside{
     background-color: #1f1e1efa;
     padding: 15px;
 }
-#contenier{
-    min-width: 320px;
-    max-width: 1024px;
-    margin: auto;
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--cor0);
 }
-.contenier-01{
+#flex > div{
     display: inline-block;
     background-color: var(--cor4);
     height: 300px;
