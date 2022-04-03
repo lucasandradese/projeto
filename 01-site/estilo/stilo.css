@@ -20,7 +20,7 @@
     width: 100%;
 }
 .imagem1{
-    width: 80%;
+    width: 100%;
 }
 header{
     background-color: var(--cor4);
@@ -90,9 +90,9 @@ main > section {
 }
 .bioimagem{
     flex: 1 1 100px;
-    width: 80px;
-    height: 80px;
-    margin: 5px auto -10px auto;
+    width: 50px;
+    height: 50px;
+    margin: 5px auto -5px auto;
 }
 hr{
     width: 100px;
