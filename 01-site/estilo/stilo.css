@@ -112,10 +112,10 @@ main article{
     padding: 20px 0px 10px 0px;
 }
 #flex > div{
-    height: 150px;
-    width: 320px;
+    height: 175px;
+    width: 330px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     background-color: #ffffff23;
     border-radius: 3px;
 }
@@ -132,9 +132,18 @@ main article{
     justify-content: center; 
 }
 .icone{
-    margin: 20px 20px 10px 20px;
+    margin: 20px 15px 10px 15px;
     height: 35px;
     width: 35px;
+}
+h4{
+    margin: 5px;
+}
+address{
+    padding: 1px;
+}
+p{
+    padding: 3px;
 }
 footer{
     background-color: black;
