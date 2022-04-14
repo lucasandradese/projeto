@@ -23,14 +23,18 @@
     width: 100%;
 }
 header{
-    background-color: var(--cor4);
-    padding: 5px 0px 40px 25px;
+    background-image: url('../imagem/principal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:800px;
 }
 a > img{
     margin-bottom: -10px
 }
 nav{
-    margin: -25px 0px 10px 15px; 
+    background-color: #ffffff5d;
+    padding: 10px;
 }
 nav > a{
     font-family: Arial, Helvetica, sans-serif;
@@ -46,18 +50,11 @@ nav > a:hover{
     color: white;
     transition-duration: .5s;
 }
-body{
-    background-image: url('../imagem/principal.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 350px;
-}
 #inicio{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    margin-top: 350px;
+    margin-top: -300px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -68,7 +65,7 @@ body{
 }
 main{
     background-color: white;
-    margin-top: 350px;
+    margin-top: 150px;
 }
 main > section {
     background-color: var(--cor4);
