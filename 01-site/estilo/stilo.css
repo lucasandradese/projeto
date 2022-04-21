@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media only screen and (max-device-width: 1300px) {
+@media only screen and (max-width: 1300px) {
     .parallax{
         background-attachment: scroll;
     }
