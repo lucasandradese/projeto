@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @media only screen and (max-device-width: 1300px) {
-    .parallax, .backgroud-capa{
+    .parallax{
+        background-attachment: scroll;
+    }
+    .parallax1{
+        background-attachment: scroll;   
+    }
+    #backgraud-capa{
         background-attachment: scroll;
     }
 }
