@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@media only screen and (max-device-width: 1300px) {
+    .parallax, .backgroud-capa{
+        background-attachment: scroll;
+    }
+}
 :root{
     --cor0: #042940;
     --cor1: #005C53;
@@ -25,7 +30,7 @@
 #backgraud-capa{
     background-image: url('../imagem/principal.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 700px;
@@ -103,6 +108,15 @@ hr{
     margin: 0px auto 10px auto;
     background-image: linear-gradient(90deg, var(--cor0), var(--cor1), var(--cor2), var(--cor4));
 }
+.parallax{
+    background-image: url('../imagem/parallax1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
 .section-02{
     background-color: var(--cor0);
 }
@@ -113,6 +127,15 @@ hr{
 }
 main article{
     margin-top: 10px;
+}
+.parallax1{
+    background-image: url('../imagem/parallax2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
 }
 #flex{
     display: flex;
