@@ -22,10 +22,6 @@
 .imagem1{
     width: 100%;
 }
-#full-video{
-    width: 100%;
-    background-color: var(--cor1);
-}
 #backgraud-capa{
     background-image: url('../imagem/principal.jpg');
     background-repeat: no-repeat;
@@ -83,13 +79,6 @@ main > section {
     justify-content: center;
     text-align: justify;
     padding: 20px;
-    margin: auto;
-}
-#video{
-    display: flex;
-    max-width: 1300px;
-    justify-content: center;
-    padding: 10px;
     margin: auto;
 }
 .section-01 > div{
