@@ -60,12 +60,54 @@ nav > a:hover{
     transition-duration: .5s;
 }
 #inicio{
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    margin-top: 100px;    
+}
+.open{
+    width: 500px;
+    height: 250px;
+    text-align:justify;
+}
+.open-grid{
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+}
+#work-pass-grid{
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: var(--cor0);
+}
+#work-pass-grid-01{
+    padding: 10px;
+    margin-top: -20px;
+    font-size: 1.5em;
+    color: white;
+}
+#button-seletion{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#button-seletion > button{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 10px;
+}
+#capa-grid{
+    width: 350px;
+    height: 300px;
+}
+#capa-grid > img{
+    width: 370px;
+    height: 250px;
 }
 #comprimento{
     background-color: var(--cor4);
