@@ -36,7 +36,6 @@
     height: 700px;
 }
 header{
-    background-color: #ffffff6b;
     padding: 5px 0px 40px 25px;
 }
 a > img{
@@ -64,7 +63,7 @@ nav > a:hover{
     flex-wrap: wrap;
     max-width: 1300px;
     justify-content: center;
-    margin-top: 100px;    
+    margin: 100px auto auto auto;   
 }
 .open{
     width: 500px;
@@ -73,7 +72,7 @@ nav > a:hover{
 }
 .open-grid{
     width: 350px;
-    height: 200px;
+    height: 150px;
     justify-content: center;
 }
 #work-pass-grid{
@@ -102,13 +101,19 @@ nav > a:hover{
     border-radius: 0px 10px;
     color: black;
 }
-#capa-grid{
-    width: 350px;
-    height: 300px;
+.open-segund{
+    width: 500px;
+    height: 280px;
+    text-align:justify;
 }
-#capa-grid > img{
-    width: 370px;
-    height: 250px;
+.open-grid-01{
+    width: 100%;
+    height: 100%;
+}
+#capa-grid{
+    width: 90%;
+    height: 300px;
+    margin: auto;
 }
 #comprimento{
     background-color: var(--cor4);
@@ -159,7 +164,7 @@ hr{
     margin: 10;
     padding: 10px;
 }
-main article{
+main > article{
     margin-top: 10px;
 }
 #flex{
