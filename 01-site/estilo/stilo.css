@@ -154,7 +154,6 @@ hr{
     border-radius: 3px;
     border: none;
     margin: 0px auto 10px auto;
-    background-image: linear-gradient(90deg, var(--cor0), var(--cor1), var(--cor2), var(--cor4));
 }
 .section-02{
     background-color: var(--cor0);
@@ -171,33 +170,46 @@ main > article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #2e2e2e;
+    background-color: #053857;
     padding: 20px 0px 10px 0px;
 }
 #flex > div{
-    height: 175px;
-    width: 330px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #ffffff23;
-    border-radius: 3px;
+    width: 175px;
+    padding: 5px;
+    margin: 15px; 
 }
 .contenier-01{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 #center > img {
-    margin-left: 100px;
+    margin-left: 10px;
     padding: 5px;
 }
-.contenier-02{
+.item-contenier{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 .icone{
-    margin: 20px 15px 10px 15px;
+    margin: 0px 15px 10px 15px;
     height: 35px;
     width: 35px;
+}
+.coluna{
+    flex-direction: column;
+}
+#contato{
+    text-align: center;
+    background-color: var(--cor2);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#contato > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
 }
 h4{
     margin: 5px;
@@ -209,9 +221,9 @@ p{
     padding: 3px;
 }
 footer{
-    background-color: black;
+    background-color: var(--cor0);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 30px;
+    padding: 15px;
 }
