@@ -11,6 +11,7 @@
 }
 *{
     margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 .img-brackgroud{
@@ -159,9 +160,45 @@ hr{
     background-color: var(--cor0);
 }
 .section-02 > div{
-    flex: 1 1 300px;
-    margin: 10;
+    flex: 1 1 250px;
+    margin: 10px;
     padding: 10px;
+}
+.section-03{
+    flex: 1 1 50%;
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+}
+#paragrafo{
+    text-align: center;
+}
+hr{
+    margin: 10px auto 10px auto;
+    border: 3px solid var(--cor0) ;
+    width: 40px;
+    border-radius: 3px;
+}
+.grid-01{
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    height: 75px;
+}
+.grid-01 > h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.grid-02{
+    display: flex;
+}
+.card{
+    background-image: url('../imagem/industrial.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 300px;
 }
 main > article{
     margin-top: 10px;
