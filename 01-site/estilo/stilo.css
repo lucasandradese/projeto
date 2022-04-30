@@ -246,12 +246,12 @@ hr{
     font-weight: bold;
     font-size: 1.3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 40px;
 }
 #texto-comentario{
     color: white;
     font-size: 0.9em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 #sabia{
