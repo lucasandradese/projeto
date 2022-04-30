@@ -202,9 +202,10 @@ hr{
 }
 hr{
     margin: 10px auto 10px auto;
-    border: 3px solid var(--cor0) ;
+    padding: 2px;
     width: 40px;
     border-radius: 3px;
+    background-color: var(--cor0);
 }
 .grid-01{
     padding: 5px;
