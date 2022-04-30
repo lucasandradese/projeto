@@ -227,8 +227,38 @@ hr{
     background-size: cover;
     height: 300px;
 }
-main > article{
-    margin-top: 10px;
+.section-04{
+    height: 300px;
+    width: 95%;
+    margin: 10px auto 10px auto;
+    border-radius: 3px; 
+    box-shadow: 1px 1px 10px #00000036;
+    background-color: #000000cc;
+    }
+.section-04 > div{
+    width: 70%;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+#texto{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+#texto-comentario{
+    color: white;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+#sabia{
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: var(--cor2);
+    border-radius: 10px;
 }
 #flex{
     display: flex;
